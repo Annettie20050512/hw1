@@ -10,12 +10,20 @@
 <link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css' />
 
 <script>
-  function show()
-   {
-document.write("新年快樂")
-   }
+function show()
+{
+document.getElementById("p1").innerHTML = "生日快樂"
+
+}
 
 </script>
+
+
+
+
+
+
+
 
 
 
@@ -45,9 +53,14 @@ document.write("新年快樂")
 <div class="page">
 
 <div class="main">
-<h1>JAVASCRIPT:顯示文字</h1>
+<h1>JAVASCRIPT:定點顯示文字</h1>
 <hr>
-<button onclick="show()" style="font-size: 50px;">顯示文字</button>
+<button onclick="show()">定點顯示文字</button>
+<p style="color: blueviolet;font-size: 50px;font-weight: 900;font-style: italic;font-family: 標楷體;" id="p1">
+
+
+
+</p>
 
 
 <p>This template is coded in W3C valid HTML 5 and CSS 3, it has been tested in internet explorer 10, Google Chrome, and Firefox. Detailed instructions on how to configure a facebook likebox like the one shown in the sidebar are also enclosed within HTML comment tags in the templates index.html file.</p>
